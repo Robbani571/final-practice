@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  text-align: justify;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  color: rgb(255, 196, 0);
+}
+span {
+  color: rgb(255, 145, 0);
+}
+.disply {
+  display: flex;
+  height: 500px;
+  padding-bottom: 150px;
+}
+.top-banner {
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+}
+.bg-bg {
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0;
+}
+.exprience {
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin: 5%;
+  padding: 2%;
+}
+.hire-button {
+  text-decoration: none;
+  color: azure;
+  border-radius: 5%;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+}
+#first-box {
+  box-shadow: 10px 10px 40px rgb(34, 30, 30);
+  border-image: linear-gradient(rgb(255, 208, 0), rgb(255, 136, 0));
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
+#second-box {
+  box-shadow: 10px 10px 40px rgb(34, 30, 30);
+  border-image: linear-gradient(blue, rgb(0, 183, 255));
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
